@@ -32,7 +32,7 @@ export default function Home() {
 
             <div className="mt-6 flex gap-4 justify-center md:justify-start">
               <a
-                href="/Febri Indra Valentino_CV.pdf"
+                href="/CV_Febri indra valentino.pdf"
                 className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition"
               >
                 Download CV
