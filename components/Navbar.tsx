@@ -9,12 +9,11 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/70 backdrop-blur">
+    <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* LOGO */}
         <h1 className="font-bold text-lg"></h1>
 
-        {/* MENU DESKTOP */}
         <div className="hidden md:flex space-x-6 text-sm">
           <Link
             href="/"
